@@ -1,0 +1,103 @@
+.section-card .section-image img {
+    border-radius: 5px;
+}
+.article-list--compact article .article-image img{
+    border-radius: 5px;
+}
+.subsection-list .article-list--tile{
+    border-radius: 5px;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    height:10px;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius:5px 
+}
+::-webkit-scrollbar-thumb {
+    background: var(--accent-color);
+    border-radius:5px 
+}
+.align-center{
+    text-align: center;
+}
+.form-control{
+    width: 35rem;
+    max-width: 100%;
+    padding: 0.8rem 2rem;
+    color: var(--accent-color-text);
+    background: var(--accent-color);
+    outline: none;
+    border: none;
+    border-radius: 15px;
+}
+.send-button{
+    background: var(--accent-color);
+    color: var(--accent-color-text);
+    padding: 2rem;
+    margin-top: 2rem;
+    border: none;
+    border-radius: 3rem;
+    outline: none;
+}
+.send-button:hover{
+    background: var(--card-text-color-secondary);
+}
+.form-control::placeholder{
+    color: var(--accent-color-text);
+}  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .cards_item {
+    display: flex;
+    padding: 1rem;
+  }
+  
+  @media (min-width: 40rem) {
+    .cards_item {
+      width: 50%;
+    }
+  }
+  
+  @media (min-width: 56rem) {
+    .cards_item {
+      width: 33.3333%;
+    }
+  }
+  
+  .card {
+    border-radius: 0.25rem;
+    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .card_content {
+    padding: 1rem;
+    background: var(--body-background);
+  }
+  
+  .card_title {
+    color: var(--body-text-color);
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin: 0px;
+  }
+  
+  .card_text {
+    color: var(--body-text-color);
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 1.25rem;    
+    font-weight: 400;
+  } 
